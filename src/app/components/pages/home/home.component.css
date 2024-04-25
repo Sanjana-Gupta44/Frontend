@@ -1,0 +1,53 @@
+ul{
+    display: flex;
+   
+    
+}
+li a{
+    margin: 0.3rem;
+    color: #e72929;
+}
+li a:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+li a img{
+    height: 14rem;
+    
+}
+.content{
+   position: relative;
+   padding: 0.5rem 1rem;
+   margin-top: 0.3rem;
+   
+}
+.favourite{
+    font-size: 1.2rem;
+    right: 1rem;bottom: 6.2rem;
+    position: absolute;
+}
+.favourite.not{
+    color: grey;
+}
+
+.origins span{
+    margin-top: 0.2rem;
+    padding: 0 0.5;
+    margin-right: 0.3rem;
+    font-size: 0.8rem;
+    color: grey;
+    display: inline-block;
+    background-color: whitesmoke;
+    border-radius: 0.2rem;
+}
+.cook-time{
+    margin-top: 0rem;
+    text-align: right;
+    font-size: 0.85rem;
+}
+.price{
+    font-size: 0.9rem;
+    margin-top: 0rem;
+    color: #414141;
+    
+}
